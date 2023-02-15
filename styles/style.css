@@ -17,6 +17,18 @@
     border: none;
 }
 
+.bg-blue {
+    background: rgba(79, 157, 166, 0.1);
+}
+
+.bg-red {
+    background: rgba(255, 89, 89, 0.1);
+}
+
+.bg-yellow {
+    background: #FFF4D6;
+}
+
 .section-title {
     font-family: 'Inter';
     font-weight: 700;
@@ -38,6 +50,8 @@
 
 .container {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Header Styles */
@@ -126,4 +140,39 @@ header {
 .btn-container {
     display: flex;
     justify-content: center;
+}
+
+/* Donate Plan Styles */
+
+.donate-plan-section {
+    margin: 130px;
+}
+
+.card {
+    padding: 0 25px;
+    padding-top: 60px;
+    width: 360px;
+    height: 352px;
+    border-radius: 5px;
+    margin-right: 24px;
+}
+
+.card img {
+    width: 60px;
+    margin-bottom: 30px;
+}
+
+.card h2 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
+    color: #121212;
+    margin-bottom: 16px;
+}
+
+.card p {
+    font-family: 'Poppins';
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
 }
