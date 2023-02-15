@@ -17,6 +17,29 @@
     border: none;
 }
 
+.section-title {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+    color: #121212;
+    margin-bottom: 20px;
+}
+
+.section-description {
+    font-family: 'Poppins';
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #707070;
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+}
+
 /* Header Styles */
 header {
     background-image: url(../images/donation6.jpg), linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
@@ -32,8 +55,9 @@ header {
     text-align: center;
 }
 
-.hero-section {
-    padding: 300px;
+.hero-section,
+.donate-today-section {
+    padding: 130px 300px;
 }
 
 .hero-section h1 {
@@ -53,4 +77,29 @@ header {
     text-align: center;
     color: #FFFFFF;
     margin-bottom: 30px;
+}
+
+/* Donate Today Styles */
+.donate-today-section .container p {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #707070;
+    width: 135px;
+    height: 123px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 22px;
+    margin-bottom: 60px;
+    border: 2px solid #FAFAFA;
+}
+
+.donate-today-section .container p:hover {
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    color: #FF5959;
 }
