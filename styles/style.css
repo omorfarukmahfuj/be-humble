@@ -124,11 +124,14 @@ header {
     font-size: 18px;
     text-align: center;
     color: #B3B3B3;
-    margin-bottom: 10px;
     width: 765px;
     border: none;
     border-bottom: 1px solid #DADADA;
+    margin: 0 auto;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .donate-today-section input:focus {
@@ -144,9 +147,6 @@ header {
 
 /* Donate Plan Styles */
 
-.donate-plan-section {
-    margin: 130px;
-}
 
 .card {
     padding: 0 25px;
@@ -155,6 +155,7 @@ header {
     height: 352px;
     border-radius: 5px;
     margin-right: 24px;
+    margin-bottom: 130px;
 }
 
 .card img {
@@ -175,4 +176,37 @@ header {
     font-size: 16px;
     line-height: 24px;
     color: #707070;
+}
+
+/* Contribute Section Styles */
+.contribute-section .container {
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.info-container {
+    width: 35%;
+}
+
+.info-container h1 {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    margin-bottom: 20px;
+}
+
+.info-container p {
+    font-family: 'Poppins';
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+    margin-bottom: 30px;
+}
+
+.img-container img {
+    width: 456px;
+    height: 477px;
+    object-fit: cover;
+
 }
